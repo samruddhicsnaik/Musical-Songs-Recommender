@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  background-color: #000;
+  color: #fff;
+}
+
+main {
+  background: linear-gradient(to bottom right, #141e30, #000);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  overflow: scroll;
+}
+
+.logo-img-home {
+  height: 60px;
+  width: 60px;
+  margin-left: 20px;
+}

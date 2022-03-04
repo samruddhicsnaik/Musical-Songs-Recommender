@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  background-color: #000;
+  color: #fff;
+}
+
+main {
+  background: linear-gradient(to bottom right, #141e30, #000);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  overflow: scroll;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+td {
+  padding-bottom: 2px;
+}
+
+th {
+  text-transform: uppercase;
+  color: #777;
+  font-weight: 2;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+}
+
+h2 {
+  color: #ddd;
+  margin-left: 30px;
+}
+
+h3 {
+  color: #ddd;
+}
+
+h5 {
+  color: #bbb;
+  font-size: 12px;
+}
+
+.album-img {
+  padding: 10px;
+}
+
+.home-logo {
+  display: flex;
+  align-items: center;
+  /* vertical-align: middle; */
+  /* align-content: center; */
+  /* justify-content: center; */
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.logo-img-home {
+  height: 60px;
+  width: 60px;
+  margin-left: 20px;
+}
+
+.logo-img {
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+}
+
+.playlist-title {
+  display: flex;
+  margin-top: 30px;
+}
+
+.playlist-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: end;
+  padding-bottom: 30px;
+}
+
+.app-name {
+  background: linear-gradient(to right, #cc2b5e, #753a88);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.list-songs {
+  margin-left: 25px;
+  table-layout: auto;
+  width: 100%;
+}

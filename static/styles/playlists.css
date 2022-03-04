@@ -1,0 +1,52 @@
+section {
+  background-color: #000;
+  color: #fff;
+}
+
+main {
+  background: linear-gradient(to bottom right, #141e30, #000);
+  overflow: scroll;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  height: 100vh;
+}
+
+.home-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.logo-img-home {
+  height: 60px;
+  width: 60px;
+  margin-left: 20px;
+}
+
+.app-name {
+  background: linear-gradient(to right, #cc2b5e, #753a88);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h1 {
+  color: #ddd;
+  padding: 50px 20px 50px 20px;
+}
+
+.card {
+  margin: 20px;
+  background-color: #222;
+  width: 300px;
+}
+
+.btn-playlist {
+  font-size: 20px;
+}

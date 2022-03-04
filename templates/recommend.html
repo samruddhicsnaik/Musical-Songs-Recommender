@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Musical - Song Recommender</title>
+
+    <style>
+      td,
+      th {
+        padding: 1px 10px 1px 10px;
+      }
+
+      /* tr {
+        padding: 2px 0 2px 0;
+      } */
+    </style>
+
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="margin: 50px 0 30px 0">Musical - Song Recommender</h1>
+
+      <table style="margin-bottom: 30px; font-size: 15px">
+        <th>#</th>
+        <th>&nbsp;</th>
+        <th>Title</th>
+        <th>Album</th>
+        <th>Duration</th>
+
+        {% for song in recommended_songs %}
+        <tr>
+          <td rowspan="2">{{ song['sr'] }}</td>
+          <td rowspan="2">
+            <img src="{{ song['url'] }}" height="60" width="60" />
+          </td>
+          <td style="vertical-align: bottom">{{ song['track_name'] }}</td>
+          <td rowspan="2">{{ song['album_name'] }}</td>
+          <td rowspan="2">{{ song['duration_ms'] }}</td>
+        </tr>
+        <tr>
+          <td style="vertical-align: top; font-size: 13px">
+            {{ song['artists_name'] }}
+          </td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+  </body>
+</html>

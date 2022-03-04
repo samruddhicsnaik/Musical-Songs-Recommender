@@ -1,0 +1,42 @@
+body {
+  background-color: #000;
+}
+
+.app-name {
+  background: linear-gradient(to right, #cc2b5e, #753a88);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 150px;
+  text-align: center;
+}
+
+.para {
+  font-size: 200px;
+}
+
+.section-logo {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  align-content: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.logo-img {
+  height: 300px;
+  width: 300px;
+}
+
+.btn {
+  background: linear-gradient(to right, #cc2b5e, #753a88);
+  border-radius: 50px;
+  color: #fff;
+  padding: 20px 40px 20px 40px;
+  font-size: 20px;
+}
+
+.btn-section {
+  text-align: center;
+  margin-top: 200px;
+}
