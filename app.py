@@ -29,9 +29,9 @@ import spotipy.util as util
 
 # #***********************CREDENTIALS**********************#
 
-client_id = "5a3253bc364d4ba09a7391008566a4fb"
-client_secret = "e96d1058f2fb47e8976d2bae05589c77"
-user_id = "31yqmt5o4fmugzzw7buxuhpzi2ha"
+client_id = "<-----YOUR CLIENT ID----->"
+client_secret = "<-----YOUR CLIENT SECRET----->"
+user_id = "<-----YOUR USER ID----->"
 
 
 # #***********************SPOTIFY API**********************#
